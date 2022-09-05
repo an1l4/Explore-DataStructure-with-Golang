@@ -10,7 +10,8 @@ func powerSeries(a int) (int, int, error) {
 }
 
 func main() {
-	square, cube := powerSeries(3)
+	square, cube, error := powerSeries(3)
 	fmt.Println("Square: ", square, "Cube: ", cube)
+	fmt.Println(error)
 
 }
