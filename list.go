@@ -19,3 +19,5 @@ func main() {
 	}
 
 }
+//The list is iterated through the for loop, 
+//and the element's value is accessed through the Value method.
